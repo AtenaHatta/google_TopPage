@@ -1,0 +1,199 @@
+
+
+
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
+.top_left_images {
+  position: relative; top: 25%}
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+} 
+
+header li {
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a > span > img:hover {
+  background-color: gray;
+}
+
+.memo:hover .word {
+  display: inline;
+}
+
+.circles {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: background-color ease-in 500ms;
+  filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
+}
+
+.circles:hover {
+  background-color: gray;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: background-color ease-in 500ms;
+}
+
+.avatar:hover {
+  background-color: gray;
+}
+
+/*-------------------------------------------
+body
+-------------------------------------------*/
+body {
+  background-color: #383838;
+  color: white;
+  text-align: center;
+}
+
+.google_logo {
+  margin-top: 170px;
+  margin-bottom: 40px;
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(1000%) contrast(101%);
+}
+
+.kyc {
+  display: flex;
+  justify-content: center;
+}
+
+.kyc-search-box{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  height: 70px;
+  width: 900px;
+  border-radius: 50px;
+  margin: 5px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  padding-left: 7%;
+}
+
+.kyc-search-bar{
+  position: relative;
+} 
+
+.search {
+  position: absolute;
+  width: 4%;
+  top: 20px;
+  left: 30px;
+}
+
+.mic {
+  position: absolute;
+  width: 4%;
+  right: 30px;
+  top: 20px;
+}
+
+.backcircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: solid 1px #383838;/*線*/
+  background-color: #1B2430;
+  margin: auto;
+}
+
+.plusimage{
+  filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
+  margin: 20px;
+}
+
+.ShortCutKey {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  padding: 10px;
+  width: 70%
+}
+
+.box:hover {
+  background-color: #444444;
+  border-radius: 10px;
+  text-decoration: underline #444444;
+}
+
+.ShortCutKeySentences {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+  
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+footer {
+  display: flex;
+  justify-content: flex-end
+}
+
+.customize1 {
+  margin-top: 400px;
+  margin-right: 20px;
+}
+
+.pencil {
+  position: center;
+  margin: 20px 10px;
+  filter: invert(88%) sepia(70%) saturate(2000%) hue-rotate(104deg) brightness(60%) contrast(100%);
+}
+
+.customize2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px;
+  border-radius: 50px;/*角の丸み*/
+  background-color: #1B2430;
+}
+
+.customize2:hover {
+  background-color: #2C3333;
+  }
+
+.customize3 {
+  color: #92B4EC;
+  text-decoration: underline #2C3333;
+  padding-right: 20px;
+}
